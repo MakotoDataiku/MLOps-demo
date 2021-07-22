@@ -1,0 +1,32 @@
+{
+  "projectKey": "westnile_test",
+  "id": "CHAMPION_CHALLENGER",
+  "type": "custom_python",
+  "name": "champion_challenger",
+  "active": false,
+  "versionTag": {
+    "versionNumber": 2,
+    "lastModifiedBy": {
+      "login": "dataiku"
+    },
+    "lastModifiedOn": 1551114021744
+  },
+  "checklists": {
+    "checklists": []
+  },
+  "delayedTriggersBehavior": {
+    "delayWhileRunning": true,
+    "squashDelayedTriggers": true,
+    "suppressTriggersWhileRunning": true
+  },
+  "tags": [],
+  "triggers": [],
+  "reporters": [],
+  "params": {
+    "envSelection": {
+      "envMode": "INHERIT"
+    }
+  },
+  "automationLocal": false,
+  "customFields": {}
+}

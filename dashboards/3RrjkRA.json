@@ -1,0 +1,77 @@
+{
+  "pages": [
+    {
+      "id": "CE8HOq1",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "## Westnile next 15 days predictions",
+              "textAlign": "CENTER",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 1,
+              "left": 0,
+              "width": 12,
+              "height": 6
+            },
+            "clickAction": "OPEN_INSIGHT",
+            "tileParams": {
+              "showXAxis": true,
+              "showYAxis": true,
+              "showLegend": false,
+              "showTooltips": true,
+              "autoPlayAnimation": true
+            },
+            "autoLoad": true,
+            "showTitle": "YES",
+            "insightId": "PzhLnYt",
+            "insightType": "chart",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "dataiku",
+  "listed": false,
+  "name": "Model Predictions",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 8,
+    "lastModifiedBy": {
+      "login": "dataiku"
+    },
+    "lastModifiedOn": 1551105092164
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "dataiku"
+    },
+    "lastModifiedOn": 1551104934274
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

@@ -1,0 +1,29 @@
+{
+  "type": "scenario_run_button",
+  "params": {
+    "scenarioSmartId": "FLOWREBUILD"
+  },
+  "owner": "dataiku",
+  "listed": false,
+  "name": "Run scenario Flow Rebuild",
+  "dashboardCreationId": "v9g4KD5",
+  "versionTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "dataiku"
+    },
+    "lastModifiedOn": 1551104082127
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "dataiku"
+    },
+    "lastModifiedOn": 1551104082127
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}

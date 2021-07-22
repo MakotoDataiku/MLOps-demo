@@ -1,0 +1,22 @@
+{
+  "uiData": {
+    "mode": "\u0026\u0026",
+    "conditions": [
+      {
+        "input": "Station",
+        "col": "Tmax",
+        "string": "1",
+        "num": 0,
+        "operator": "\u003d\u003d [string]"
+      }
+    ]
+  },
+  "$status": {
+    "validated": true,
+    "fullyTranslated": false,
+    "ok": false,
+    "message": "Filter expression is invalid"
+  },
+  "distinct": false,
+  "enabled": true
+}

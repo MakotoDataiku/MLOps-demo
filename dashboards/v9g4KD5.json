@@ -1,0 +1,74 @@
+{
+  "pages": [
+    {
+      "id": "8OdXMaR",
+      "grid": {
+        "tiles": [
+          {
+            "tileType": "TEXT",
+            "box": {
+              "top": 0,
+              "left": 0,
+              "width": 12,
+              "height": 1
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "text": "##Click on button to build the flow",
+              "textAlign": "CENTER",
+              "isTransparent": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          },
+          {
+            "tileType": "INSIGHT",
+            "box": {
+              "top": 1,
+              "left": 4,
+              "width": 4,
+              "height": 4
+            },
+            "clickAction": "DO_NOTHING",
+            "tileParams": {
+              "buttonText": "REBUILD THE FLOW",
+              "showLastRun": false
+            },
+            "autoLoad": true,
+            "showTitle": "NO",
+            "insightId": "E6NFy4w",
+            "insightType": "scenario_run_button",
+            "displayMode": "INSIGHT",
+            "resizeImageMode": "FIT_SIZE"
+          }
+        ]
+      },
+      "showTitle": false
+    }
+  ],
+  "owner": "dataiku",
+  "listed": false,
+  "name": "Flow Rebuild",
+  "showGrid": true,
+  "versionTag": {
+    "versionNumber": 4,
+    "lastModifiedBy": {
+      "login": "dataiku"
+    },
+    "lastModifiedOn": 1551104123966
+  },
+  "creationTag": {
+    "versionNumber": 0,
+    "lastModifiedBy": {
+      "login": "dataiku"
+    },
+    "lastModifiedOn": 1551104040339
+  },
+  "tags": [],
+  "customFields": {},
+  "checklists": {
+    "checklists": []
+  }
+}
