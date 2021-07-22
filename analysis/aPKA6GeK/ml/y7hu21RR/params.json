@@ -2599,7 +2599,8 @@
   "backendType": "PY_MEMORY",
   "maxConcurrentModelTraining": 2,
   "envSelection": {
-    "envMode": "INHERIT"
+    "envMode": "EXPLICIT_ENV",
+    "envName": "custom-models"
   },
   "containerSelection": {
     "containerMode": "INHERIT"
