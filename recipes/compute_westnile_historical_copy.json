@@ -50,6 +50,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -70,12 +72,13 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "ajelley"
+      "login": "admin"
     },
-    "lastModifiedOn": 1611566495778
+    "lastModifiedOn": 1626940285077
   },
   "creationTag": {
     "versionNumber": 0,
