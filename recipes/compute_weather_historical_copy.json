@@ -50,6 +50,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -59,7 +61,8 @@
             {
               "idim": "date",
               "func": "all_available",
-              "params": {}
+              "params": {},
+              "expandVariables": false
             }
           ]
         }
@@ -76,12 +79,13 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
-    "versionNumber": 5,
+    "versionNumber": 6,
     "lastModifiedBy": {
-      "login": "ajelley"
+      "login": "admin"
     },
-    "lastModifiedOn": 1611570661560
+    "lastModifiedOn": 1626940311432
   },
   "creationTag": {
     "versionNumber": 0,
