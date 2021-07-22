@@ -1,6 +1,7 @@
 {
   "envSelection": {
-    "envMode": "INHERIT"
+    "envName": "custom-models",
+    "envMode": "EXPLICIT_ENV"
   },
   "modeling": {
     "computeLearningCurves": false,
@@ -155,7 +156,7 @@
     "algorithm": "GBT_CLASSIFICATION",
     "gridLength": 1
   },
-  "generatingModelId": "A-WN_MLOps_initial-aPKA6GeK-y7hu21RR-s4-pp3-m1",
+  "generatingModelId": "A-WN_MLOps_initial-aPKA6GeK-y7hu21RR-s5-pp3-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
@@ -1242,8 +1243,10 @@
     },
     "executionParams": {
       "envSelection": {
-        "envMode": "INHERIT"
+        "envName": "custom-models",
+        "envMode": "EXPLICIT_ENV"
       },
+      "envName": "custom-models",
       "containerSelection": {
         "containerMode": "INHERIT"
       },
@@ -1298,6 +1301,7 @@
   },
   "operationMode": "TRAIN_SPLITTED_ONLY",
   "partSource": "ACTIVE_VERSION",
+  "envName": "custom-models",
   "assertionsParams": {
     "assertions": [
       {
