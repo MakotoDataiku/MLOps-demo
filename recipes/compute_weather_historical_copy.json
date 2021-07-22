@@ -57,14 +57,7 @@
       "items": [
         {
           "ref": "weather_historical_raw1",
-          "deps": [
-            {
-              "idim": "date",
-              "func": "all_available",
-              "params": {},
-              "expandVariables": false
-            }
-          ]
+          "deps": []
         }
       ]
     }
@@ -81,11 +74,11 @@
   },
   "labels": [],
   "versionTag": {
-    "versionNumber": 8,
+    "versionNumber": 9,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1626940422375
+    "lastModifiedOn": 1626940934262
   },
   "creationTag": {
     "versionNumber": 0,
