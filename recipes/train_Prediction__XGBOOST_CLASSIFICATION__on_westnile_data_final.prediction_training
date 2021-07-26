@@ -156,7 +156,7 @@
     "algorithm": "GBT_CLASSIFICATION",
     "gridLength": 1
   },
-  "generatingModelId": "A-WN_MLOps_initial-aPKA6GeK-y7hu21RR-s6-pp3-m1",
+  "generatingModelId": "A-WN_MLOps_initial-aPKA6GeK-y7hu21RR-s7-pp3-m1",
   "preprocessing": {
     "reduce": {
       "kept_variance": 0.0,
