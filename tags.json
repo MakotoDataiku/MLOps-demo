@@ -1,6 +1,9 @@
 {
   "tags": {
     "Training model on historical data": {},
+    "duplicated": {
+      "color": "#3A85AD"
+    },
     "imported": {
       "color": "#263238"
     },

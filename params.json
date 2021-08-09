@@ -165,7 +165,7 @@
       }
     }
   },
-  "name": "MLOps Demo Initial",
+  "name": "MLOps Demo Initial (prune-flow)",
   "imgPattern": 6,
   "showInitials": false,
   "metrics": {
@@ -223,11 +223,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 23,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628498835467
+    "lastModifiedOn": 1628498941882
   },
   "creationTag": {
     "versionNumber": 0,
@@ -236,9 +236,10 @@
     },
     "lastModifiedOn": 1551103254513
   },
-  "shortDesc": "The project *Westnile_Prod* was created by dataiku on Feb 25th 2019",
+  "shortDesc": "The project *Westnile_Prod* was created by dataiku on Feb 25th 2019\nThe project *MLOPS_DEMO_INITIAL_PRUNE_FLOW* was copied from *WN_MLOps_initial* by Makoto Miyazaki on Aug 09th 2021",
   "tags": [
-    "imported"
+    "imported",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
