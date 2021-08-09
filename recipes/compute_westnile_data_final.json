@@ -51,6 +51,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -71,6 +73,7 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
     "versionNumber": 2,
     "lastModifiedBy": {

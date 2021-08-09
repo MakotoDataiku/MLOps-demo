@@ -5,23 +5,25 @@
   "params": {
     "engineParams": {
       "spark": {
-        "pipelineAllowStart": true,
-        "pipelineAllowMerge": true,
+        "readParams": {
+          "mode": "AUTO",
+          "autoModeRepartitionInto": 10,
+          "map": {
+            "westnile_data_joined_by_Trap": {
+              "repartition": 10
+            }
+          }
+        },
+        "useGlobalMetastore": false,
+        "useNativeProcessors": true,
         "sparkConfig": {
           "inheritConf": "default",
           "conf": []
         },
         "executionEngine": "SPARK_SUBMIT",
-        "readParams": {
-          "map": {
-            "westnile_data_joined_by_Trap": {
-              "repartition": 10,
-              "cache": false
-            }
-          }
-        },
-        "useGlobalMetastore": false,
-        "useNativeProcessors": true
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true,
+        "skipPrerunValidate": false
       },
       "hive": {
         "inheritConf": "default",
@@ -34,6 +36,10 @@
         "forceStreamMode": true
       },
       "hadoopConfigKeys": [],
+      "sqlPipelineParams": {
+        "pipelineAllowStart": true,
+        "pipelineAllowMerge": true
+      },
       "maxThreads": 8
     }
   },
@@ -42,6 +48,8 @@
   },
   "redispatchPartitioning": false,
   "maxRunningActivities": 0,
+  "variables": {},
+  "dkuProperties": [],
   "inputs": {
     "main": {
       "items": [
@@ -62,6 +70,7 @@
       ]
     }
   },
+  "labels": [],
   "versionTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
