@@ -28,11 +28,11 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 0,
+    "versionNumber": 1,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628497130500
+    "lastModifiedOn": 1628497225019
   },
   "creationTag": {
     "versionNumber": 0,
@@ -57,8 +57,97 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [],
-    "userModified": true
+    "columns": [
+      {
+        "name": "Station",
+        "type": "bigint"
+      },
+      {
+        "name": "Tmax",
+        "type": "bigint"
+      },
+      {
+        "name": "Tmin",
+        "type": "bigint"
+      },
+      {
+        "name": "Tavg",
+        "type": "bigint"
+      },
+      {
+        "name": "Depart",
+        "type": "bigint"
+      },
+      {
+        "name": "DewPoint",
+        "type": "bigint"
+      },
+      {
+        "name": "WetBulb",
+        "type": "string"
+      },
+      {
+        "name": "Heat",
+        "type": "bigint"
+      },
+      {
+        "name": "Cool",
+        "type": "bigint"
+      },
+      {
+        "name": "Sunrise",
+        "type": "bigint"
+      },
+      {
+        "name": "Sunset",
+        "type": "bigint"
+      },
+      {
+        "name": "CodeSum",
+        "type": "string"
+      },
+      {
+        "name": "Depth",
+        "type": "bigint"
+      },
+      {
+        "name": "Water1",
+        "type": "string"
+      },
+      {
+        "name": "SnowFall",
+        "type": "string"
+      },
+      {
+        "name": "PrecipTotal",
+        "type": "string"
+      },
+      {
+        "name": "StnPressure",
+        "type": "string"
+      },
+      {
+        "name": "SeaLevel",
+        "type": "string"
+      },
+      {
+        "name": "ResultSpeed",
+        "type": "double"
+      },
+      {
+        "name": "ResultDir",
+        "type": "bigint"
+      },
+      {
+        "name": "AvgSpeed",
+        "type": "double"
+      },
+      {
+        "name": "Date",
+        "type": "string"
+      }
+    ],
+    "userModified": false
   },
   "dkuProperties": [],
   "metrics": {
