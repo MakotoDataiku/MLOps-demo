@@ -28,18 +28,18 @@
     "dimensions": []
   },
   "versionTag": {
-    "versionNumber": 1,
+    "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628497225019
+    "lastModifiedOn": 1628499291321
   },
   "creationTag": {
     "versionNumber": 0,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628497130500
+    "lastModifiedOn": 1628499291321
   },
   "tags": [],
   "params": {
@@ -49,7 +49,7 @@
     "mode": "table",
     "partitioningType": "custom",
     "normalizeDoubles": true,
-    "table": "${projectKey}_tmax_filtered",
+    "table": "${projectKey}_s",
     "tableCreationMode": "auto",
     "writeInsertBatchSize": 10000,
     "writeJDBCBadDataBehavior": "DISCARD_ROW",
@@ -57,97 +57,8 @@
     "readSQLDateColsAsDSSDates": true
   },
   "schema": {
-    "columns": [
-      {
-        "name": "Station",
-        "type": "bigint"
-      },
-      {
-        "name": "Tmax",
-        "type": "bigint"
-      },
-      {
-        "name": "Tmin",
-        "type": "bigint"
-      },
-      {
-        "name": "Tavg",
-        "type": "bigint"
-      },
-      {
-        "name": "Depart",
-        "type": "bigint"
-      },
-      {
-        "name": "DewPoint",
-        "type": "bigint"
-      },
-      {
-        "name": "WetBulb",
-        "type": "string"
-      },
-      {
-        "name": "Heat",
-        "type": "bigint"
-      },
-      {
-        "name": "Cool",
-        "type": "bigint"
-      },
-      {
-        "name": "Sunrise",
-        "type": "bigint"
-      },
-      {
-        "name": "Sunset",
-        "type": "bigint"
-      },
-      {
-        "name": "CodeSum",
-        "type": "string"
-      },
-      {
-        "name": "Depth",
-        "type": "bigint"
-      },
-      {
-        "name": "Water1",
-        "type": "string"
-      },
-      {
-        "name": "SnowFall",
-        "type": "string"
-      },
-      {
-        "name": "PrecipTotal",
-        "type": "string"
-      },
-      {
-        "name": "StnPressure",
-        "type": "string"
-      },
-      {
-        "name": "SeaLevel",
-        "type": "string"
-      },
-      {
-        "name": "ResultSpeed",
-        "type": "double"
-      },
-      {
-        "name": "ResultDir",
-        "type": "bigint"
-      },
-      {
-        "name": "AvgSpeed",
-        "type": "double"
-      },
-      {
-        "name": "Date",
-        "type": "string"
-      }
-    ],
-    "userModified": false
+    "columns": [],
+    "userModified": true
   },
   "dkuProperties": [],
   "metrics": {
