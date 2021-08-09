@@ -223,11 +223,11 @@
     }
   },
   "versionTag": {
-    "versionNumber": 21,
+    "versionNumber": 22,
     "lastModifiedBy": {
       "login": "admin"
     },
-    "lastModifiedOn": 1628498835467
+    "lastModifiedOn": 1628498937745
   },
   "creationTag": {
     "versionNumber": 0,
@@ -238,7 +238,8 @@
   },
   "shortDesc": "The project *Westnile_Prod* was created by dataiku on Feb 25th 2019",
   "tags": [
-    "imported"
+    "imported",
+    "duplicated"
   ],
   "customFields": {},
   "checklists": {
